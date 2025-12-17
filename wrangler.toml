@@ -1,0 +1,10 @@
+# Cloudflare Pages configuration
+name = "pingolin-website"
+compatibility_date = "2025-12-01"
+pages_build_output_dir = "dist"
+
+[build]
+command = "npm run build"
+
+# Custom domain configuration (set in Cloudflare dashboard)
+# Production: pingolin.com, www.pingolin.com
